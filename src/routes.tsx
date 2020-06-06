@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import CreatePoint from './pages/CreatePoint';
 
 const Routes = () => {
-  return(
+  return (
     <BrowserRouter>
       <Route component={Home} exact path="/" />
       <Route component={CreatePoint} path="/create-point" />
@@ -13,4 +13,4 @@ const Routes = () => {
   );
 }
 
-export default Routes;   
+export default Routes;
